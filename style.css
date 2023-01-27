@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B09E99;
+}
+.container{
+    width: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#quote{
+    padding-bottom: 40px;
+      margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#quotes{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+
+}
