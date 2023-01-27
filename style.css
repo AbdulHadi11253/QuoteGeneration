@@ -6,12 +6,13 @@ body{
 }
 .container{
     width: 500px;
-    background-color: black;
+    background-color: rgb(207, 192, 192);
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     margin-top: 100px;
+    flex-direction: column;
 }
 
 #quote{
@@ -20,12 +21,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
     
 }
 
 #quotes{
-  margin-top: 20px;
+  margin: 20px 0px ;
   text-align: center;
-  color: white;
+  color: rgb(17, 0, 0);
+  font-family: segoe ui;
+  font-style: italic;
+  text-transform: capitalize;
 
 }
